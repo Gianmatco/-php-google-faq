@@ -20,7 +20,19 @@ include 'database.php';
     <main>
         <p>
             <?php
-            foreach($googleFaq)
+            foreach($googleFaq as $key => $value){
+                echo "<h2>{$key}</h2>";
+                foreach($value as $item){
+                    echo "<ul>";
+                    foreach($item as $k=>$val){
+                        echo "<li>{$k}:{$val}</li>";
+                        
+                       
+                    };
+                    echo " </ul>";
+                }
+
+            }
             ?>
         </p>
 
