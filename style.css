@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.container-70{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.container-navbar{
+position: fixed;  
+background-color: white; 
+width: 100%;
+border-bottom: 1px solid black;
+
+}
+.container-ul{
+    
+}
+.container-ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+main{
+    padding-top: 140px;
+}
